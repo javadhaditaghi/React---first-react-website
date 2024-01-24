@@ -1,13 +1,17 @@
 .butStyle {
-    width: 150px;
-    margin-top: 30px;
-    background-color: #F37649;
-    border: 2px solid #F37649;
+    width: 150px !important;
+    margin-top: 30px !important;
+    background-color: #F37649 !important;
+    border: 2px solid #F37649 !important;
+    border-radius: 25px !important;
+    -webkit-border-radius: 25px !important;
+    -moz-border-radius: 25px !important;
+    -ms-border-radius: 25px !important;
+    -o-border-radius: 25px !important;
 }
 
 .butStyle:hover {
-    background-color: #ffffff;
-    color: #F37649;
-    border: 2px solid #F37649;
-
+    background-color: #ffffff !important;
+    color: #F37649 !important;
+    border: 2px solid #F37649 !important;
 }

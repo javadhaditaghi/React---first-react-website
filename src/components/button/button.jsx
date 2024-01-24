@@ -4,7 +4,7 @@ import styles from "./button.module.css";
 function StyledButton() {
     return (
         <>
-            <Button className={styles.butStyle}>Primary</Button>
+            <Button className={styles.butStyle}>Click me!</Button>
         </>
     );
 }
