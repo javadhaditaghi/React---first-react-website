@@ -1,12 +1,13 @@
 // import Swiper core and required modules
-import { Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
-
+import { Navigation, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import CarouselCard from './carouselCard';
+import "./carousel.css"
+import jsonData from "./carouselInfo.json"
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 
 
@@ -14,27 +15,33 @@ import 'swiper/css/autoplay';
 
 export default () => {
     return (
-        <Swiper
+        <Swiper className="container swiper-container"
             // install Swiper modules
-            modules={[Navigation, Pagination, A11y, Autoplay]}
+            modules={[Navigation, A11y, Autoplay]}
 
             spaceBetween={50}
             slidesPerView={4}
             navigation
-            pagination={{ clickable: true }}
             autoplay={{ delay: 2000 }}
 
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
+
         >
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
+
+            {jsonData.map(slides => (
+                <SwiperSlide><CarouselCard key={slides.id}>
+                    <div style={{ padding: "30px" }}>
+                        <img src={slides.icon} alt={slides.title}></img>
+                        <h3>{slides.title}</h3>
+                        <p>{slides.description}</p>
+                    </div>
+                </CarouselCard></SwiperSlide>
+
+            ))}
+
+
+
 
         </Swiper>
     );

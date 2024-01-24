@@ -1,0 +1,53 @@
+[
+    {   "id": "1",
+        "title": "Roof Installation",
+        "icon": "../../../src/assets/carouselSVGs/roof.png",
+        "description": "On the other hand, we denounce with righteous indignation and dislike"
+      },
+    {
+      "id": "2",
+      "title": "Installation Windows",
+      "icon": "../../../src/assets/carouselSVGs/windows.png",
+      "description": "On the other hand, we denounce with righteous indignation and dislike"
+    },
+    {
+        "id": "3",
+      "title": "House Construction",
+      "icon": "./../../src/assets/carouselSVGs/house.png",
+      "description": "On the other hand, we denounce with righteous indignation and dislike"
+    },
+    {
+        "id": "4",
+      "title": "Pipa Installation",
+      "icon": "./../../src/assets/carouselSVGs/pipe.png"
+      ,
+      "description": "On the other hand, we denounce with righteous indignation and dislike"
+    },
+    {
+        "id": "5",
+        "title": "Roof Installation",
+        "icon": "../../../src/assets/carouselSVGs/roof.png",
+        "description": "On the other hand, we denounce with righteous indignation and dislike"
+      },
+    {
+        "id": "6",
+      "title": "Installation Windows",
+      "icon": "../../../src/assets/carouselSVGs/windows.png",
+      "description": "On the other hand, we denounce with righteous indignation and dislike"
+    },
+    {
+        "id": "7",
+      "title": "House Construction",
+      "icon": "./../../src/assets/carouselSVGs/house.png",
+      "description": "On the other hand, we denounce with righteous indignation and dislike"
+    },
+    {
+        "id": "8",
+      "title": "Pipa Installation",
+      "icon": "./../../src/assets/carouselSVGs/pipe.png"
+      ,
+      "description": "On the other hand, we denounce with righteous indignation and dislike"
+    }
+
+  ]
+  
