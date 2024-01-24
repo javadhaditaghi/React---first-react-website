@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./heroHeader.module.css"
+import StyledButton from '../button/button';
 
 
 
@@ -19,6 +20,8 @@ const Header = ({ topDescription, title, shortDescription }) => {
                 ))}</h1>
                 {/* Finished Using ChatGPT */}
                 <small style={{ color: "#888" }}>{shortDescription}</small>
+                <StyledButton></StyledButton>
+
             </div>
 
 

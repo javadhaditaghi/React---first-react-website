@@ -1,0 +1,13 @@
+.butStyle {
+    width: 150px;
+    margin-top: 30px;
+    background-color: #F37649;
+    border: 2px solid #F37649;
+}
+
+.butStyle:hover {
+    background-color: #ffffff;
+    color: #F37649;
+    border: 2px solid #F37649;
+
+}
