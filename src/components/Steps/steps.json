@@ -1,0 +1,22 @@
+[
+    {   "id": "1",
+        "title": "Schedule a pickup",
+        "icon": "../../../src/assets/stepsSVGs/stepOne.svg",
+        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+      },
+    {
+      "id": "2",
+      "title": "Enjoy Your Free Time",
+      "icon": "../../../src/assets/stepsSVGs/stepTwo.svg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "id": "3",
+      "title": "Relax With Delivery",
+      "icon": "../../../src/assets/stepsSVGs/stepThree.svg",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui."
+    }
+
+
+  ]
+  

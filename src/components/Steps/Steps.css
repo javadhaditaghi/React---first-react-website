@@ -1,0 +1,16 @@
+.stepsWrapper {
+    height: 100%;
+}
+
+
+.absolImg {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    z-index: -1;
+}
+
+.overlaytext {
+    position: relative;
+    padding: 0px 30px 20px 70px;
+}
