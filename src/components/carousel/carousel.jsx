@@ -16,7 +16,6 @@ import 'swiper/css/autoplay';
 export default () => {
     return (
         <Swiper className="container swiper-container"
-            // install Swiper modules
             modules={[Navigation, A11y, Autoplay]}
 
             spaceBetween={50}
@@ -39,10 +38,6 @@ export default () => {
                 </CarouselCard></SwiperSlide>
 
             ))}
-
-
-
-
         </Swiper>
     );
 };

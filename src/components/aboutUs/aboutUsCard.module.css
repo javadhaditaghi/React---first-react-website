@@ -1,0 +1,16 @@
+.mainTextStyle {
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.bulletContainer {
+    list-style: none;
+
+}
+
+.bulletContainer li {
+    line-height: 40px;
+}

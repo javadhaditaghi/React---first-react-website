@@ -1,6 +1,9 @@
 import Navigation from './components/navbar/navigation'
 import Hero from './components/hero/hero'
 import Carousel from './components/carousel/carousel'
+import AboutUs from './components/aboutUs/aboutUs'
+
+
 
 function App() {
 
@@ -10,6 +13,9 @@ function App() {
       <Navigation></Navigation>
       <Hero></Hero>
       <Carousel></Carousel>
+      <AboutUs></AboutUs>
+
+
 
     </>
   )
