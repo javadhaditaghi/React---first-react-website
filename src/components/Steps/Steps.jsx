@@ -17,7 +17,7 @@ function Steps() {
                 {jsonData.map(step => (
                     <Col key={step.id} className='position-relative'>
                         <div className='stepsWrapper'>
-                            <h5><img src='../../../src/assets/check.svg' className='pe-2'></img>{step.title}</h5>
+                            <h6><img src='../../../src/assets/check.svg' className='pe-2'></img>{step.title}</h6>
                             <img src={step.icon} alt={step.title} className='absolImg' />
                             <p className='overlaytext'>{step.description}</p>
                         </div>
