@@ -20,7 +20,10 @@ const Header = ({ topDescription, title, shortDescription }) => {
                 ))}</h1>
                 {/* Finished Using ChatGPT */}
                 <small style={{ color: "#888" }}>{shortDescription}</small>
-                <StyledButton></StyledButton>
+                <div className='pt-4'>
+                    <StyledButton></StyledButton>
+                </div>
+
 
             </div>
 
