@@ -1,0 +1,72 @@
+.colWrap:nth-child(even) .card-header {
+    background: var(--Color-7, #F37649) !important;
+    color: var(--Color-1, #FFF7F4) !important;
+
+}
+
+.colWrap .card-header {
+    padding: 15px;
+}
+
+.colWrap {
+    margin: 0 20px;
+
+}
+
+.colWrap .card {
+    border: 1px solid var(--Color-5, #EEE);
+    box-shadow: 0.166px 1.24px 5.707px 0px rgba(0, 0, 0, 0.02), 1.845px 13.788px 30.11px 0px rgba(0, 0, 0, 0.04), 3.592px 26.846px 64.157px 0px rgba(0, 0, 0, 0.06);
+}
+
+.colWrap:nth-child(even) {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+
+}
+
+.card-header {
+    background: var(--Color-7, #FFF7F4) !important;
+    color: var(--Color-1, #F37649) !important;
+}
+
+.colWrap p {
+    font-size: 15px;
+    color: var(--Color-3, #121212);
+
+}
+
+
+
+.PriceCardsButt {
+    width: 150px !important;
+    background-color: #F37649 !important;
+    border: 2px solid #F37649 !important;
+    border-radius: 25px !important;
+    -webkit-border-radius: 25px !important;
+    -moz-border-radius: 25px !important;
+    -ms-border-radius: 25px !important;
+    -o-border-radius: 25px !important;
+}
+
+.colWrap:nth-child(odd) .PriceCardsButt {
+    background-color: #ffffff !important;
+    color: #F37649 !important;
+    border: 2px solid #F37649 !important;
+
+}
+
+.PriceCardsButt:hover {
+    background-color: #ffffff !important;
+    color: #F37649 !important;
+    border: 2px solid #F37649 !important;
+}
+
+.colWrap:nth-child(odd) .PriceCardsButt:hover {
+    background-color: #F37649 !important;
+    border: 2px solid #F37649 !important;
+    color: #ffffff !important;
+
+}

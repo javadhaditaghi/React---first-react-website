@@ -1,0 +1,23 @@
+[
+
+    {
+    "id": "1",
+    "header":"Personal", 
+    "price": "$39", 
+    "text": "Everything you need for a growing business",
+    "otherInfo": "Available instantly Unlimited transactions 24/7 Free support 05% setup fees"},
+
+    {
+    "id": "2",
+    "header":"Extended", 
+    "price": "$29", 
+    "text": "Everything you need for a our perfect business",
+    "otherInfo": "Available instantly Unlimited transactions 24/7 Free support 0.05% setup fees"},
+
+    {
+    "id": "3",
+    "header":"Personal", 
+    "price": "$79", 
+    "text": "Everything you need for the best businesses in",
+    "otherInfo": "Available instantly Unlimited transactions 24/7 Free support 05% setup fees"}
+]
