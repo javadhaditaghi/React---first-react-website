@@ -3,10 +3,15 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import jsonData from "./steps.json";
 import "./steps.css";
+import GeneralTitle from '../generalTitle/generalTitle';
 
 function Steps() {
     return (
         <Container>
+            <GeneralTitle
+                topTxt="How it Work"
+                headerTxt="Follow 3 Easy Steps"
+            ></GeneralTitle>
 
             <Row>
                 {jsonData.map(step => (
@@ -18,7 +23,6 @@ function Steps() {
                         </div>
                     </Col>
                 ))}
-
             </Row>
         </Container>
     );
