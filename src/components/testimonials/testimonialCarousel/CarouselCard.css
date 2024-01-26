@@ -1,0 +1,12 @@
+/* .testiCard {
+    height: 600px !important;
+} */
+
+
+.testiphoto {
+    position: relative !important;
+    right: 0;
+    bottom: 0;
+    top: -93px;
+    margin-bottom: -93px;
+}

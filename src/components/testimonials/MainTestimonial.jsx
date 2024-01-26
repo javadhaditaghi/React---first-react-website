@@ -1,5 +1,6 @@
 import TopTitle from "./topTitle/topTitle"
 import { Container } from "react-bootstrap"
+import TestimonialCarousel from "./testimonialCarousel/testimonialCarousel"
 
 
 
@@ -12,7 +13,7 @@ const Testimonial = () => {
                 topTxt="Testimonial"
                 headerTxt="What Do They Say About Clening Services?"
             ></TopTitle>
-
+            <TestimonialCarousel></TestimonialCarousel>
         </Container>
 
     )
