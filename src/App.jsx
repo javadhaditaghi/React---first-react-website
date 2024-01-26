@@ -6,6 +6,7 @@ import Steps from './components/Steps/Steps'
 import VideoContainer from './components/video/video'
 import MainPriceCard from './components/priceCard/maninPriceCard'
 import MainTestimonial from './components/testimonials/MainTestimonial'
+import CountUp from './components/countUp/countUp'
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <VideoContainer></VideoContainer>
       <MainPriceCard></MainPriceCard>
       <MainTestimonial></MainTestimonial>
+      <CountUp></CountUp>
 
 
 

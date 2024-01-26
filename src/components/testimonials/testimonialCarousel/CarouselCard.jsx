@@ -15,7 +15,7 @@ const CarouselCard = (props) => {
                     </Card.Text>
 
                     <Card.Text>
-                        <p>{props.name} <br></br>{props.solvedIssue}</p>
+                        <p><strong>{props.name}</strong> <br></br>{props.solvedIssue}</p>
                     </Card.Text>
                 </div>
                 <div className="position-relative ">
