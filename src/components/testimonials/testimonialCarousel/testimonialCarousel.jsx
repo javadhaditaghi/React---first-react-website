@@ -1,5 +1,6 @@
 import CarouselCard from './CarouselCard';
 
+
 // import Swiper core and required modules
 import { Navigation, Pagination, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
