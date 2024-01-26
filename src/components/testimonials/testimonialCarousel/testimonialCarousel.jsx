@@ -1,4 +1,5 @@
 import CarouselCard from './CarouselCard';
+import jasonData from "./testimonialInfo.json";
 
 
 // import Swiper core and required modules
@@ -25,10 +26,23 @@ const TestimonialCarousel = () => {
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
         >
-            <SwiperSlide ><CarouselCard></CarouselCard></SwiperSlide>
-            <SwiperSlide><CarouselCard></CarouselCard></SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
+
+            {
+                jasonData.map(slideInfo => (
+                    <SwiperSlide
+                        key={slideInfo.id}
+                    ><CarouselCard stars={slideInfo.stars}
+                        description={slideInfo.description}
+                        name={slideInfo.name}
+                        solvedIssue={slideInfo.solvedIssue}
+                        mainPicture={slideInfo.mainPicture}>
+
+                        </CarouselCard></SwiperSlide>
+
+
+
+                ))
+            }
 
         </Swiper>
     )

@@ -1,0 +1,42 @@
+[
+    {   "id": "1",
+        "stars": "../../../../src/assets/stars.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "name": "alfred hitchcock",
+        "solvedIssue":"Installer of Pipa",
+        "mainPicture": "../../../../src/assets/testimoniaPlaceholder.png"
+      },
+    {
+      "id": "2",
+      "stars": "../../../../src/assets/stars.svg",
+      "description": "Gorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "name": "Ludwig Wittgenstein",
+      "solvedIssue":"Fixing Roof",
+      "mainPicture": "../../../../src/assets/testimoniaPlaceholder.png"
+    },
+    {
+        "id": "3",
+      "stars": "../../../../src/assets/stars.svg",
+      "description": "Jorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "name": "Ludwig Wittgenstein",
+      "solvedIssue":"Fixing Floor",
+      "mainPicture": "../../../../src/assets/testimoniaPlaceholder.png"
+    },
+    {
+        "id": "4",
+      "stars": "../../../../src/assets/stars.svg",
+      "description": "Sorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.", 
+      "name": "Arthur Schopenhauer",
+      "solvedIssue":"Installing Roof",
+      "mainPicture": "../../../../src/assets/testimoniaPlaceholder.png"
+    },
+    {
+        "id": "5",
+        "stars": "../../../../src/assets/stars.svg",
+        "description": "Vorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "name": "Friedrich Nietzsche",
+        "solvedIssue":"Fixing Roof",
+        "mainPicture": "../../../../src/assets/testimoniaPlaceholder.png"
+      }
+]
+  
