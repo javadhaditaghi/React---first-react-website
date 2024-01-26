@@ -7,9 +7,9 @@ import "./countUpWrapper.css"
 const CountUpWrapper = (props) => {
     return (
         <Container fluid className="countUp-wrapper">
-            <Container>
-                {props.children}
-            </Container>
+
+            {props.children}
+
         </Container>
     )
 }

@@ -1,0 +1,35 @@
+.numbers {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 130px 10px 130px;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: var(--Color-1, #F37649);
+}
+
+.number .counter {
+    font-weight: bold;
+    /* font-style: italic; */
+    font-size: 4em;
+    margin: 6px 0;
+}
+
+.number p {
+    font-size: 1em;
+    display: block;
+    color: var(--Color-1, #F37649);
+}
+
+.countText {
+    text-align: center;
+    width: 650px;
+    padding-bottom: 70px;
+
+}
