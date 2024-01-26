@@ -5,6 +5,7 @@ import AboutUs from './components/aboutUs/aboutUs'
 import Steps from './components/Steps/Steps'
 import VideoContainer from './components/video/video'
 import MainPriceCard from './components/priceCard/maninPriceCard'
+import MainTestimonial from './components/testimonials/MainTestimonial'
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Steps></Steps>
       <VideoContainer></VideoContainer>
       <MainPriceCard></MainPriceCard>
+      <MainTestimonial></MainTestimonial>
 
 
 

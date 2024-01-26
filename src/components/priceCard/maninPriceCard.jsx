@@ -14,7 +14,7 @@ import StyledButton from "../button/button";
 const MainPriceCard = () => {
 
     return (
-        <>
+        <div className="mb-5">
             <GeneralTitle
                 topTxt="OUR PRICING"
                 headerTxt="Exceptional Cleaning at Reasonable Prices"
@@ -50,7 +50,7 @@ const MainPriceCard = () => {
                 </Row>
             </Container>
 
-        </>
+        </div>
 
 
 
