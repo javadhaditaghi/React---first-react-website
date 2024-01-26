@@ -1,11 +1,11 @@
 .colWrap:nth-child(even) .card-header {
     background: var(--Color-7, #F37649) !important;
     color: var(--Color-1, #FFF7F4) !important;
-
 }
 
 .colWrap .card-header {
     padding: 15px;
+    border: 1px solid var(--Color-5, #EEE);
 }
 
 .colWrap {
