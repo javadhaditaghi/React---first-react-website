@@ -1,3 +1,9 @@
-.aboutUs-wrapper {
+.aboutUsWrapper {
     padding: 50px 0;
+    margin-top: -160px
+}
+
+.FAQwrapper {
+    padding: 50px 0;
+    margin-top: 0;
 }

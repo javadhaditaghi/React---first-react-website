@@ -19,13 +19,21 @@ function App() {
       <Navigation></Navigation>
       <Hero></Hero>
       <Carousel></Carousel>
-      <AboutUs></AboutUs>
+      <AboutUs
+        stylingOne={"aboutUsWrapper"}
+        aboutUs={"aboutUs"}
+      ></AboutUs>
       <Steps></Steps>
       <VideoContainer></VideoContainer>
       <MainPriceCard></MainPriceCard>
       <MainTestimonial></MainTestimonial>
       <CountUp></CountUp>
       <Tutorial></Tutorial>
+      <AboutUs
+        stylingOne={"FAQWrapper"}
+        aboutUs={"FAQUs"}
+      ></AboutUs>
+
 
 
 

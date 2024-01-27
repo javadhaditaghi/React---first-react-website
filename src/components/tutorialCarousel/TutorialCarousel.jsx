@@ -1,8 +1,9 @@
 // import Swiper core and required modules
 import { Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import TutorialInsideCard from './tutorialInsideCard';
+import tutjsonData from "./tutorialInfo.json"
+import "./tutorialCarousel.css"
 
 
 // Import Swiper styles
@@ -20,17 +21,31 @@ export default () => {
             spaceBetween={50}
             slidesPerView={3}
             navigation
-            pagination={{ clickable: true }}
+            pagination={{
+                clickable: true,
+
+            }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
             autoplay={{ delay: 2000 }}
             loop={true}
         >
-            <SwiperSlide><TutorialInsideCard></TutorialInsideCard></SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-            ...
+
+
+            {
+                tutjsonData.map(info => (
+                    <SwiperSlide key={info.id}><TutorialInsideCard
+                        title={info.title}
+                        photo={info.photo}
+                        comments={info.commntsNo}
+
+                    ></TutorialInsideCard></SwiperSlide>
+
+                ))
+
+            }
+
+
         </Swiper>
     );
 };
