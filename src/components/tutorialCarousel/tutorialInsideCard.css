@@ -1,3 +1,14 @@
-.tutorial-card img {
-    width: ;
+.tutorial-card {
+    border-radius: 8px;
+    border: 1px solid var(--Color-5, #EEE);
+    background: var(--Color-2, #FFF);
+}
+
+.tutorial-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.tutorial-card a:hover {
+    color: rgb(79, 79, 79);
 }
