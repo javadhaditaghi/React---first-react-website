@@ -2,6 +2,7 @@
 import { Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
+import TutorialInsideCard from './tutorialInsideCard';
 
 
 // Import Swiper styles
@@ -25,7 +26,7 @@ export default () => {
             autoplay={{ delay: 2000 }}
             loop={true}
         >
-            <SwiperSlide>Slide 1</SwiperSlide>
+            <SwiperSlide><TutorialInsideCard></TutorialInsideCard></SwiperSlide>
             <SwiperSlide>Slide 2</SwiperSlide>
             <SwiperSlide>Slide 3</SwiperSlide>
             <SwiperSlide>Slide 4</SwiperSlide>
