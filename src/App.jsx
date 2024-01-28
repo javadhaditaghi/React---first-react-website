@@ -8,6 +8,8 @@ import MainPriceCard from './components/priceCard/maninPriceCard'
 import MainTestimonial from './components/testimonials/MainTestimonial'
 import CountUp from './components/countUp/countUp'
 import Tutorial from './components/tutorialCarousel/tutorial'
+import CallToAction from './components/callToAction/calltoAction'
+import CallToActionCard from './components/callToAction/callToActionCard'
 
 
 
@@ -33,6 +35,7 @@ function App() {
         stylingOne={"FAQWrapper"}
         aboutUs={"FAQUs"}
       ></AboutUs>
+      <CallToActionCard></CallToActionCard>
 
 
 

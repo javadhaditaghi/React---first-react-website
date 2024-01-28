@@ -1,0 +1,19 @@
+.card {
+    border-radius: 18px !important;
+    border: 1px solid var(--Color-5, #EEE) !important;
+    background: var(--Color-2, #FFF) !important;
+    box-shadow: 0.166px 1.24px 5.707px 0px rgba(0, 0, 0, 0.02), 1.845px 13.788px 30.11px 0px rgba(0, 0, 0, 0.04), 3.592px 26.846px 64.157px 0px rgba(0, 0, 0, 0.06) !important;
+    -webkit-border-radius: 18px !important;
+    -moz-border-radius: 18px !important;
+    -ms-border-radius: 18px !important;
+    -o-border-radius: 18px !important;
+}
+
+.card a {
+    text-decoration: none;
+    color: #F37649 !important;
+}
+
+.card a:hover {
+    color: #f7926e !important;
+}
