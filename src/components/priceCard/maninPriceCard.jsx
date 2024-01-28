@@ -24,20 +24,22 @@ const MainPriceCard = () => {
                 <Row className="pt-4 px-3">
 
                     {jsonData.map(cardinfo => (
-                        <Col className="colWrap">
-                            <Card className="text-center" key={cardinfo.id}>
-                                <Card.Header>{cardinfo.header}</Card.Header>
-                                <Card.Body>
-                                    <Card.Title className="pb-4">{cardinfo.price}/mo</Card.Title>
-                                    <Card.Text className="px-5 mx-5 mb-5">
-                                        {cardinfo.text}
-                                    </Card.Text>
-                                    <Card.Text className="px-5 mx-5 mb-5">
-                                        {cardinfo.otherInfo}
-                                    </Card.Text>
-                                    <Button className="PriceCardsButt">Click me!</Button>
-                                </Card.Body>
-                            </Card>
+                        <Col className="colWrap" md={4}>
+                            <Container>
+                                <Card className="text-center" key={cardinfo.id}>
+                                    <Card.Header>{cardinfo.header}</Card.Header>
+                                    <Card.Body>
+                                        <Card.Title className="pb-4">{cardinfo.price}/mo</Card.Title>
+                                        <Card.Text className="px-5 mx-5 mb-5">
+                                            {cardinfo.text}
+                                        </Card.Text>
+                                        <Card.Text className="px-5 mx-5 mb-5">
+                                            {cardinfo.otherInfo}
+                                        </Card.Text>
+                                        <Button className="PriceCardsButt">Click me!</Button>
+                                    </Card.Body>
+                                </Card>
+                            </Container>
                         </Col>
 
 

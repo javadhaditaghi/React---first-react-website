@@ -18,7 +18,7 @@ export default () => {
         <Swiper className="container swiper-container"
             modules={[Navigation, A11y, Autoplay]}
 
-            spaceBetween={50}
+            spaceBetween={30}
             slidesPerView={4}
             navigation
             autoplay={{ delay: 2000 }}
