@@ -1,0 +1,14 @@
+footer {
+    background: var(--Color-3, #121212);
+}
+
+.footer-socialWrapper a {
+    padding-right: 7px;
+}
+
+
+
+.footer-socialWrapper a:hover svg {
+    fill: #F37649 !important;
+    transition: fill 0.3s ease;
+}
