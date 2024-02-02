@@ -14,3 +14,15 @@
         line-height: 120%;
     }
 }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .mainTextStyle {
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+    }
+
+
+}

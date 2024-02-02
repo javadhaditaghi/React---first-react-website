@@ -50,3 +50,28 @@
     font-weight: 400;
     /* 32.4px */
 }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .swiper-container {
+        top: -150px;
+    }
+
+    .card-wrapper {
+        width: 255px;
+        height: 227px;
+        border-radius: 8px;
+        border: 1px solid #EEE;
+        background: #FFF;
+        box-shadow: 0.166px 1.24px 5.707px 0px rgba(0, 0, 0, 0.02), 1.845px 13.788px 30.11px 0px rgba(0, 0, 0, 0.04), 3.592px 26.846px 64.157px 0px rgba(0, 0, 0, 0.06);
+    }
+
+
+
+    .swiper-container img {
+        width: 29px;
+        height: auto;
+        padding: 0 0 30px 0;
+
+    }
+}
