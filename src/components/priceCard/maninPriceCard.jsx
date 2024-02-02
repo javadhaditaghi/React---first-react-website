@@ -29,11 +29,11 @@ const MainPriceCard = () => {
                                 <Card className="text-center" key={cardinfo.id}>
                                     <Card.Header>{cardinfo.header}</Card.Header>
                                     <Card.Body>
-                                        <Card.Title className="pb-4">{cardinfo.price}/mo</Card.Title>
-                                        <Card.Text className="px-5 mx-5 mb-5">
+                                        <Card.Title className="pb-lg-4 pb-xl-4">{cardinfo.price}/mo</Card.Title>
+                                        <Card.Text className="px-lg-4 px-xl-5 mx-lg-4 mx-xl-5 mb-lg-4 mb-xl-5">
                                             {cardinfo.text}
                                         </Card.Text>
-                                        <Card.Text className="px-5 mx-5 mb-5">
+                                        <Card.Text className="px-lg-4 px-xl-5 mx-lg-4 mx-xl-5 mb-lg-4 mb-xl-5">
                                             {cardinfo.otherInfo}
                                         </Card.Text>
                                         <Button className="PriceCardsButt">Click me!</Button>
