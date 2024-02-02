@@ -1,5 +1,6 @@
 import CarouselCard from './CarouselCard';
 import jasonData from "./testimonialInfo.json";
+import "./CarouselCard.css"
 
 
 // import Swiper core and required modules
@@ -24,6 +25,17 @@ const TestimonialCarousel = () => {
             navigation
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
+            breakpoints={{
+
+                992: {
+                    slidesPerView: 1.2
+
+                },
+                768: {
+                    slidesPerView: 1
+
+                }
+            }}
         >
 
             {
