@@ -4,6 +4,10 @@
     border: 1px solid var(--Color-5, #EEE);
     background: var(--Color-2, #FFF);
     box-shadow: 0.166px 1.24px 5.707px 0px rgba(0, 0, 0, 0.02), 1.845px 13.788px 30.11px 0px rgba(0, 0, 0, 0.04), 3.592px 26.846px 64.157px 0px rgba(0, 0, 0, 0.06);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .testiStars {
@@ -16,4 +20,16 @@
     bottom: 0;
     top: -93px;
     margin-bottom: -93px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .testiphoto {
+        position: relative !important;
+        right: 0;
+        bottom: 0;
+        top: -75px;
+        margin-bottom: -93px;
+        width: 353px;
+    }
+
 }

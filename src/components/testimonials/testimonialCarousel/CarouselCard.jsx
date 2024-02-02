@@ -7,7 +7,7 @@ const CarouselCard = (props) => {
     return (
         <Card className='testiCard'>
             <Card.Body className='d-flex flex-row p-0'>
-                <div className='d-flex flex-column justify-content-center p-5'>
+                <div className='d-flex flex-column justify-content-center p-lg-3 p-xl-5'>
                     <Card.Title className='testiStars'><img src={props.stars}></img></Card.Title>
                     <Card.Text>
                         {props.description}
