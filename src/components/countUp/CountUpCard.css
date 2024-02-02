@@ -4,6 +4,13 @@
     padding: 70px 130px 10px 130px;
 }
 
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .numbers {
+        padding: 70px 100px 10px 100px;
+    }
+}
+
 .number {
     display: flex;
     flex-direction: column;
