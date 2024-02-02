@@ -6,7 +6,7 @@
     line-height: 120%;
 }
 
-@media (min-width: 768px) and (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
     .mainTextStyle {
         font-size: 34px;
         font-style: normal;

@@ -18,13 +18,24 @@ export default () => {
         <Swiper className="container swiper-container"
             modules={[Navigation, A11y, Autoplay]}
 
-            spaceBetween={30}
+            // spaceBetween={30}
             slidesPerView={4}
             navigation
             autoplay={{ delay: 2000 }}
 
+
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
+            breakpoints={{
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetweenSlides: 30
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetweenSlides: 50
+                }
+            }}
 
         >
 
