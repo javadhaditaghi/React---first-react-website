@@ -1,3 +1,10 @@
 .header {
     font-weight: 800;
 }
+
+
+@media (min-width: 768px) {
+    .textWrapper {
+        width: 50%;
+    }
+}

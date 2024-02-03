@@ -6,8 +6,8 @@ import StyledButton from "../../button/button";
 const TopTitle = (props) => {
 
     return (
-        <div className="d-flex justify-content-between align-items-center pt-5">
-            <div className="w-50">
+        <div className="d-flex flex-column flex-md-row justify-content-between align-items-center pt-md-5 text-center text-md-start">
+            <div className={styles.textWrapper}>
 
                 <span style={{ color: "#F37649" }}>{props.topTxt}</span>
 

@@ -24,7 +24,7 @@ const MainPriceCard = () => {
                 <Row className="pt-md-4 px-3">
 
                     {jsonData.map(cardinfo => (
-                        <Col className="colWrap my-4 my-md-0" md={4}>
+                        <Col className="colWrap my-3 my-md-0" md={4}>
                             <Container>
                                 <Card className="text-center" key={cardinfo.id}>
                                     <Card.Header>{cardinfo.header}</Card.Header>
