@@ -11,6 +11,12 @@
     }
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .numbers {
+        padding: 70px 10px 10px 10px;
+    }
+}
+
 .number {
     display: flex;
     flex-direction: column;
