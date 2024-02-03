@@ -36,3 +36,22 @@
         font-size: 17px;
     }
 }
+
+@media (max-width: 768px) {
+    .stepsWrapper h6 img {
+
+        width: 45px;
+        margin-left: 40px;
+
+    }
+
+    .stepsWrapper h6 {
+        font-size: 17px;
+    }
+
+    .stepsWrapper .absolImg {
+        margin-left: 55px;
+    }
+
+
+}

@@ -10,6 +10,7 @@ import CountUp from './components/countUp/countUp'
 import Tutorial from './components/tutorialCarousel/tutorial'
 import CallToActionCard from './components/callToAction/callToActionCard'
 import Footer from './components/footer/footer'
+import "./App.css"
 
 
 
