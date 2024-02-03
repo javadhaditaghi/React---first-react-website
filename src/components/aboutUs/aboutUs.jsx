@@ -13,7 +13,7 @@ function AboutUs(props) {
                     {
                         props.aboutUs == "aboutUs" ?
                             <>
-                                <Col><AboutUsCard
+                                <Col xs={12} md={6}><AboutUsCard
                                     title="Let’s Do Renovation with a 10 Year Guarantee"
                                     topDescription="About Us"
                                     shortDescription="Simplify your integration using Stripe Checkout. It dynamically adapts to your customer’s device and location to increase conversion."
@@ -21,7 +21,7 @@ function AboutUs(props) {
                                     bulletTwo="Retain more, happier customers"
                                     bulletThree="Start with done-for-you account setup"
                                 /></Col>
-                                <Col><img src='../../../src/assets/ConstructionEngineer.svg' /></Col>
+                                <Col xs={12} md={6}><img src='../../../src/assets/ConstructionEngineer.svg' /></Col>
                             </>
 
                             :
