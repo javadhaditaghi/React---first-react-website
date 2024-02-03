@@ -6,3 +6,12 @@
     background: #FFF;
     box-shadow: 0.166px 1.24px 5.707px 0px rgba(0, 0, 0, 0.02), 1.845px 13.788px 30.11px 0px rgba(0, 0, 0, 0.04), 3.592px 26.846px 64.157px 0px rgba(0, 0, 0, 0.06);
 }
+
+@media (max-width: 767.9px) {
+
+    .card-wrapper {
+        width: 360px;
+        height: 215px;
+        margin: 0 3px;
+    }
+}

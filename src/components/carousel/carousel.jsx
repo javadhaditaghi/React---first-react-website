@@ -19,7 +19,7 @@ export default () => {
             modules={[Navigation, A11y, Autoplay]}
 
             // spaceBetween={30}
-            slidesPerView={4}
+            // slidesPerView={4}
             navigation
             autoplay={{ delay: 2000 }}
 
@@ -38,6 +38,11 @@ export default () => {
                 768: {
                     slidesPerView: 2,
                     spaceBetweenSlides: 70
+                },
+                0: {
+                    slidesPerView: 1,
+                    spaceBetweenSlides: 100
+
                 }
             }}
 
