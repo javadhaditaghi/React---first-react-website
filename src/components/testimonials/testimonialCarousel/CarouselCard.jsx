@@ -19,7 +19,7 @@ const CarouselCard = (props) => {
                     </Card.Text>
                 </div>
                 <div className="position-relative ">
-                    <img className="testiphoto" src={props.mainPicture} />
+                    <img className="testiphoto d-none d-md-block" src={props.mainPicture} />
 
                 </div>
 

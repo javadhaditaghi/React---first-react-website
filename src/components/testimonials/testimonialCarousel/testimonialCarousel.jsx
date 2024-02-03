@@ -17,11 +17,11 @@ import 'swiper/css/navigation';
 const TestimonialCarousel = () => {
 
     return (
-        <Swiper className='pt-3'
+        <Swiper className='testimonials pt-3'
             // install Swiper modules
             modules={[Navigation, A11y]}
-            spaceBetween={50}
-            slidesPerView={1.2}
+            spaceBetween={30}
+            // slidesPerView={1.2}
             navigation
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
