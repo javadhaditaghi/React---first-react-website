@@ -29,6 +29,25 @@ export default () => {
             onSlideChange={() => console.log('slide change')}
             autoplay={{ delay: 2000 }}
             loop={true}
+            breakpoints={{
+                1200: {
+                    slidesPerView: 3,
+
+                },
+                992: {
+                    slidesPerView: 3,
+
+                },
+                768: {
+                    slidesPerView: 2,
+
+                },
+                0: {
+                    slidesPerView: 1,
+
+
+                }
+            }}
         >
 
 
