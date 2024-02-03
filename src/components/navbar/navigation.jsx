@@ -3,14 +3,15 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import styles from './navigation.module.css';
 import classNames from 'classnames';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
 function Navigation() {
     return (
         <>
-            <Navbar bg="white" data-bs-theme="light" className={styles.NavbarStyles}>
+            <Navbar bg="white" data-bs-theme="light" expand="lg" className={styles.NavbarStyles}>
                 <Container>
-                    <Navbar.Brand href="#home"><svg xmlns="http://www.w3.org/2000/svg" width="160" height="22" viewBox="0 0 160 22" fill="none">
+                    <Navbar.Brand href="#home" className='mt-1'><svg xmlns="http://www.w3.org/2000/svg" width="160" height="22" viewBox="0 0 160 22" fill="none">
                         <path d="M19.616 14.1039C19.2107 15.5759 18.56 18.1999 17.664 19.1599C16.768 20.0985 15.7013 20.7919 14.464 21.2399C13.2267 21.6665 11.8613 21.8799 10.368 21.8799C8.23467 21.8799 6.38933 21.4532 4.832 20.5999C3.27467 19.7252 2.08 18.4772 1.248 16.8559C0.416 15.2345 0 13.2825 0 10.9999C0 8.71721 0.416 6.76521 1.248 5.14387C2.08 3.52254 3.27467 2.28521 4.832 1.43187C6.38933 0.557206 8.224 0.119873 10.336 0.119873C11.808 0.119873 13.1627 0.333206 14.4 0.759872C15.6373 1.16521 16.6827 1.79454 17.536 2.64787C18.3893 3.50121 19.2533 6.55187 19.616 7.89587H14.528C14.2293 6.57321 13.7387 5.66654 13.056 5.17587C12.3947 4.68521 11.552 4.43987 10.528 4.43987C9.52533 4.43987 8.65067 4.68521 7.904 5.17587C7.17867 5.66654 6.61333 6.40254 6.208 7.38387C5.824 8.34387 5.632 9.5492 5.632 10.9999C5.632 12.4292 5.81333 13.6345 6.176 14.6159C6.53867 15.5972 7.08267 16.3332 7.808 16.8239C8.55467 17.3145 9.472 17.5599 10.56 17.5599C11.584 17.5599 12.448 17.2825 13.152 16.7279C13.8773 16.1519 14.368 15.2772 14.624 14.1039H19.616Z" fill="#F37649" />
                         <path d="M28.1812 0.439873V21.5599H22.6772V0.439873H28.1812Z" fill="#F37649" />
                         <path d="M42.9448 0.439873C45.4621 0.439873 47.4141 1.03721 48.8008 2.23187C50.2088 3.40521 50.9128 4.97321 50.9128 6.93587C50.9128 9.09054 50.2194 10.7332 48.8328 11.8639C47.4461 12.9945 45.4941 13.5599 42.9768 13.5599L42.4648 13.8479H38.2728V21.5599H32.8647V0.439873H42.9448ZM42.1768 9.94387C43.2434 9.94387 44.0434 9.73054 44.5768 9.30387C45.1101 8.87721 45.3768 8.19454 45.3768 7.25587C45.3768 6.33854 45.1101 5.66654 44.5768 5.23987C44.0434 4.81321 43.2434 4.59987 42.1768 4.59987H38.2728V9.94387H42.1768ZM45.4088 11.0959L52.1608 21.5599H46.0808L40.6728 12.3119L45.4088 11.0959Z" fill="#F37649" />
@@ -20,13 +21,16 @@ function Navigation() {
                         <path d="M137.658 21.5599H131.994L130.522 16.7919H123.29L121.786 21.5599H116.25L123.674 0.439873H130.266L137.658 21.5599ZM124.314 13.0479H129.499L126.906 4.50387L124.314 13.0479Z" fill="#F37649" />
                         <path d="M150.195 0.439873C152.712 0.439873 154.664 1.03721 156.051 2.23187C157.459 3.40521 158.163 4.97321 158.163 6.93587C158.163 9.09054 157.469 10.7332 156.083 11.8639C154.696 12.9945 152.744 13.5599 150.227 13.5599L149.715 13.8479H145.523V21.5599H140.115V0.439873H150.195ZM149.427 9.94387C150.493 9.94387 151.293 9.73054 151.827 9.30387C152.36 8.87721 152.627 8.19454 152.627 7.25587C152.627 6.33854 152.36 5.66654 151.827 5.23987C151.293 4.81321 150.493 4.59987 149.427 4.59987H145.523V9.94387H149.427ZM152.659 11.0959L159.411 21.5599H153.331L147.923 12.3119L152.659 11.0959Z" fill="#F37649" />
                     </svg></Navbar.Brand>
-                    <Nav className="ms-auto">
-                        <Nav.Link href="#home" className={classNames(styles.active, 'px-4')}>HOME</Nav.Link>
-                        <Nav.Link href="#features" className={classNames(styles.navLink, 'px-4')}>HOW IT WORKS</Nav.Link>
-                        <Nav.Link href="#pricing" className={classNames(styles.navLink, 'px-4')}>PRICING</Nav.Link>
-                        <Nav.Link href="#pricing" className={classNames(styles.navLink, 'px-4')}>SERVICES</Nav.Link>
-                        <Nav.Link href="#pricing" className={classNames(styles.navLink, 'px-4')}>CONTACT</Nav.Link>
-                    </Nav>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="ms-auto">
+                            <Nav.Link href="#home" className={classNames(styles.active, 'px-4')}>HOME</Nav.Link>
+                            <Nav.Link href="#features" className={classNames(styles.navLink, 'px-4')}>HOW IT WORKS</Nav.Link>
+                            <Nav.Link href="#pricing" className={classNames(styles.navLink, 'px-4')}>PRICING</Nav.Link>
+                            <Nav.Link href="#pricing" className={classNames(styles.navLink, 'px-4')}>SERVICES</Nav.Link>
+                            <Nav.Link href="#pricing" className={classNames(styles.navLink, 'px-4')}>CONTACT</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
         </>
