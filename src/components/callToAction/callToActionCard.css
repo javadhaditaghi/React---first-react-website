@@ -17,3 +17,16 @@
 .card a:hover {
     color: #f69e7e !important;
 }
+
+.flexInfo-wrapper {
+    width: 50%;
+}
+
+
+@media (max-width: 768px) {
+    .flexInfo-wrapper {
+        width: 100%;
+    }
+
+
+}
