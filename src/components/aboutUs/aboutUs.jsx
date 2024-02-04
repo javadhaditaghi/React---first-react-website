@@ -25,17 +25,14 @@ function AboutUs(props) {
                             </>
 
                             :
-                            <>
-                                <Col><FAQCard
+                            <div className="d-flex flex-column flex-column-reverse flex-md-row ">
+                                <Col xs={12} md={6}><FAQCard
                                     topDescription="Frequently Asked Question"
                                     title="Do You Have Any Question"
                                 >
-
-
-
                                 </FAQCard></Col>
-                                <Col><img src='../../../src/assets/ConstructionEngineer.svg' /></Col>
-                            </>
+                                <Col xs={12} md={6}><img src='../../../src/assets/ConstructionEngineer.svg' /></Col>
+                            </div>
 
                     }
 
